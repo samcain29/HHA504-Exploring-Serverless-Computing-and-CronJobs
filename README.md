@@ -1,1 +1,1 @@
-# HHA504-Exploring-Serverless-Conputing-and-CronJobs
+# HHA504-Exploring-Serverless-Computing-and-CronJobs
