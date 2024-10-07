@@ -1,1 +1,13 @@
+name: Cron Job Example
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run a script
+      run: echo "Scheduled task executed"
 
